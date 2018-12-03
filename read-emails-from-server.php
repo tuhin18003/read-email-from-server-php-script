@@ -9,9 +9,9 @@ class Email_reader {
     private $msg_cnt;
     
     // email login credentials
-    private $server = 'host.tfthosting.com';
-    private $user = 'checkin@reputationforce.net';
-    private $pass = 'TfT159753()*^$!';
+    private $server = ''; //enter your server address
+    private $user = ''; //enter your email username
+    private $pass = ''; //enter your email account password
     private $port = 110; // adjust according to server settings
 
     // connect to the server and get the inbox emails
