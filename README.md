@@ -13,7 +13,16 @@ You can read your email from your web server or any email hosting account.
 
 ### How to use
 
-Basic user emailple. Create instantiate of the class
+Configuration: Set the data top of the class
+```sh
+private $server = ''; //enter your server address
+private $user = ''; //enter your email username
+private $pass = ''; //enter your email account password
+private $port = 110; // adjust according to server settings
+```
+
+
+Basic user email. Create instantiate of the class
 ```sh
 $email_reader = new Email_reader();
 $mail = $email_reader->get();
@@ -47,5 +56,5 @@ License
 MIT
 
 
-**Free Software, Hell Yeah!**
+**Free Script, Hell Yeah!**
 
